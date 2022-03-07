@@ -45,8 +45,6 @@ class ApodView:
         self.search_button = Button(upframe, text="search", command=self.search_button_handler)
         self.search_button.grid(row=0, column=3)
 
-        self.reload_image()
-
         self.root.mainloop()
 
     def search_button_handler(self):
